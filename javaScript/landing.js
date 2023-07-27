@@ -4,7 +4,7 @@ document.getElementById("logOut").onclick = function () {
     .signOut()
     .then(() => {
       // Sign-out successful.
-      window.location.href = "/login.html";
+      window.location.href = "index.html";
     })
     .catch((error) => {
       // An error happened.
